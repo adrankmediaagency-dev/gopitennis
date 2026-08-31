@@ -93,20 +93,14 @@
         margin-bottom: 40px;
       }
 
-      .profile-avatar {
-        width: 96px;
-        height: 96px;
+      /* Logo mark: uploaded brand logo, circular with a soft glow */
+      .logo-mark {
+        width: 120px;
+        height: 120px;
         border-radius: 50%;
-        background: linear-gradient(145deg, var(--clay-light), var(--clay));
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-family: 'Bebas Neue', sans-serif;
-        font-size: 40px;
-        letter-spacing: 1px;
-        color: var(--charcoal);
-        border: 3px solid var(--line-white);
-        box-shadow: 0 8px 24px rgba(0,0,0,0.35);
+        object-fit: cover;
+        border: 3px solid rgba(244,242,234,0.25);
+        box-shadow: 0 0 0 6px rgba(63,107,69,0.15), 0 10px 30px rgba(0,0,0,0.5);
       }
 
       .heading1 {
@@ -198,7 +192,7 @@
     <section class="hero">
       <div class="container">
         <div class="logo-container">
-          <div class="profile-avatar">GT</div>
+          <img class="logo-mark" src=profile.jpg" alt="Gopi Tennis King logo" />
           <h1 class="heading1">Gopi Tennis</h1>
           <span class="clr">Professional Tennis Analyst</span>
         </div>
